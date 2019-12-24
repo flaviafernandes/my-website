@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <ol>
+        <ol style="margin: 150px;"> 
             <li>Create Github Account</li>
+            <a href="https://github.com/flaviafernandes">flaviafernandes</a>
             <li>Create Repository</li>
+            <a href="https://github.com/flaviafernandes/my-website">my-website</a>
             <li>Link to Netlify</li>
+            <a href="https://www.netlify.com/">Netlify website</a> (login with github account)
             <li>You should have learnt git first</li>
-        </ol>
+            <li>Git (not Github)</li>
+            <ul>
+                <li>Clone <a href="https://github.com/flaviafernandes/my-website">your project</a></li>
+                <ol>
+                    <li>Copy your project URI (big green button on top left: "clone or download")</li>
+                    <li>Open terminal</li>
+                    <li>Go to the parent folder you wish</li>
+                    <li>Run the following command to download all the files from Github:</li>
+                    <!-- Note here that we are using "&lt" instead of "<" and "&gt" instead of ">"
+                         Otherwise the browser would think that "<my-project-URI>" is a tag instead of plain text. -->
+                    <pre>git clone &ltmy-project-URI&gt</pre>
+                    <li>To enter in your project folder run:</li>
+                    <pre>cd &ltmy-project-name&gt</pre>
+                </ol>
+                <li>Edit files as you wish using VSCode</li>
+                <li>Open terminal</li>
+                <li>Go to working folder -- Change Directory using</li>
+                <pre>cd some-folder</pre>
+                <li>If lost, use <b>P</b>rint <b>W</b>orking <b>D</b>irectory to find yourself:</li>
+                <pre>pwd</pre>
+                <li>Check status of edits:</li>
+                <pre>git status</pre>
+                <li>See actual changes with diff:</li>
+                <pre>git diff</pre>
+                If locked press <pre style="display: inline;">q</pre>
+                <li>Add every change and new file to git</li>
+                <pre>git add .</pre>
+                <li>To commit added files/edits</li>
+                <pre>git commit -m "My beautiful message"</pre>
+                <li>to push changes to Github (and netlify will update)</li>
+                <pre>git push</pre> 
+            </ul>
+        </ol style="margin: 30px;">
     </body>
 </html>
