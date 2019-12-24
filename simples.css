@@ -1,7 +1,9 @@
 .title {
     background-color: aqua;
 }
-
+.header {
+    width: 100px;
+}
 .link {
     color: pink;
 }
