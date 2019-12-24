@@ -1,12 +1,19 @@
+body { 
+    margin: 0;
+}
+
 .title {
     background-color: aqua;
+    text-align: center;
+    line-height: 100px;
 }
+
 .header {
     height: 200px;
     width: 100%;
     /* exemplo cor: d5 89 36 */
-    background-color: #d58936;
 }
+
 .link {
     color: pink;
 }
@@ -21,7 +28,7 @@
 .box {
     width: 60px;
     height: 60px;
-    background-color: rgba(200, 40, 150, 0.3);
+    background-color: #7d38d8;
     margin: 10px;
     text-align: center;
     line-height: 60px;
