@@ -3,10 +3,15 @@ body {
 }
 
 .title {
-    background-color: aqua;
+    background-color: #7d38d8;
     text-align: center;
     line-height: 100px;
 }
+
+.link {
+    font-size: ;
+}
+
 
 .header {
     height: 100px;
