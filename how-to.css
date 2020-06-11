@@ -1,0 +1,12 @@
+body.body-how-to { 
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: darkblue;
+}
+
+.how-to-hero-img {
+    width: 100%;
+    height: 400px;
+    background-position: 50% 36%;
+    background-image: url("images/how-to-genart.svg");
+}
