@@ -1,5 +1,6 @@
 body { 
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .title {
@@ -62,3 +63,4 @@ body {
     background-color: aquamarine;
     flex-grow: 20;
 }
+
