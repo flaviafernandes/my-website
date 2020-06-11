@@ -3,15 +3,16 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.title {
-    background-color: #7d38d8;
+.home-title {
     text-align: center;
     line-height: 100px;
+    margin: 0px;
 }
 
 .header {
-    height: 100px;
     width: 100%;
+    padding: 0 50px 20px ;
+    box-sizing: border-box;
     /* exemplo cor: d5 89 36 */
 }
 
@@ -31,6 +32,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    display: block;
+    margin: 10px auto;
+    width: 200px;
 }
 
 #color-box {
