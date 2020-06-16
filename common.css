@@ -40,14 +40,6 @@ body {
     color: #B0F7CF;
 }
 
-.back-button {
-    margin: 20px 10px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 120px;
-}
-
 #color-box {
     background-color: rgba(0, 0, 0, 0.3);
     height: 300px;
@@ -79,4 +71,16 @@ button {
 button:hover {
     background-color: #B0F7CF;
     color: white;
+}
+
+.back-button {
+    margin: 20px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+}
+
+button:focus {
+    outline: violet;
 }

@@ -11,10 +11,3 @@ body.body-how-to {
     background-image: url("images/how-to-genart.svg");
 }
 
-.back-button {
-    margin: 20px 10px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 120px;
-}
