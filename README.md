@@ -1,5 +1,4 @@
 # my-website
 
-Turini's
-
-Text that Turini supposedly wrote (parece errado disse Tu)
+Hey there, 
+This is my first website training ever o/
